@@ -9,7 +9,7 @@ concurrency: acceptance
 env:
   OWNER: cboschmans-code
   REGISTRY: ghcr.io
-  APP_REPO: catalog-service
+  APP_REPO: dispatcher-service
   DEPLOY_REPO: polar-deployment
   VERSION: ${{ github.sha }}
 jobs:
